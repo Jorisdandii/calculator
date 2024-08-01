@@ -61,11 +61,15 @@ const Calculator: React.FC = () => {
     <div className="flex items-center justify-center min-h-screen bg-gray-900">
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-96">
         <div
-          className={`text-right text-white p-4 bg-indigo-800 rounded-3xl mb-4 text-4xl ${
+          className={`text-right text-white p-4 bg-indigo-800 rounded-3xl mb-4 text-3xl ${
             error ? "text-red-500 truncate" : ""
           }`}
           style={{
-            fontSize: "min(4vw, 4rem)",
+            wordWrap: "break-word",
+            overflowWrap: "break-word",
+            wordBreak: "break-all",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
           }}
         >
           {error ? error : display}
