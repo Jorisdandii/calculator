@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+/* }
+
+.calculator {
+  @apply bg-gray-800 p-6 rounded-lg shadow-lg;
+}
+
+.display {
+  @apply bg-blue-700 text-4xl p-4 rounded-lg mb-4;
+}
+
+.button {
+  @apply bg-gray-700 text-white text-2xl p-4 rounded-3xl;
+}
+
+.button--operator {
+  @apply bg-yellow-500 text-2xl p-4 rounded-3xl text-white; */
+}
